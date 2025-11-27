@@ -5,9 +5,10 @@ export default function Navlink({ children }) {
   return (
     <Link
       href={href}
-      className="block underline text-xl tracking-wide text-indigo-300"
+      className="flex justify-between text-indigo-300 hover:bg-indigo-300 hover:text-white transition duration-200 ease-in-out px-2 py-1 rounded"
     >
-      {children}
+      <h3 className="text-xl tracking-wide">{children}</h3>
+      <span className="text-slate-300">{`>`}</span>
     </Link>
   );
 }
