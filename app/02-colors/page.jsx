@@ -1,4 +1,4 @@
-import H1 from "@/components/h1";
+import H1 from "../../components/h1";
 import React from "react";
 
 export default function page() {
@@ -21,8 +21,8 @@ export default function page() {
       <p className="text-[#50d71e] ...">Lorem ipsum dolor sit amet...</p>
       <p className="text-(--my-color) ...">Lorem ipsum dolor sit amet...</p>
 
-      <p className="text-regal-blue">Lorem ipsum dolor sit amet...</p>
-      <p className="text-regal-blue/50">Lorem ipsum dolor sit amet...</p>
+      <p className="text-sathish-blue">Lorem ipsum dolor sit amet...</p>
+      <p className="text-sathish-blue/50">Lorem ipsum dolor sit amet...</p>
     </>
   );
 }

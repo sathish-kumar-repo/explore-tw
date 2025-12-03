@@ -1,4 +1,4 @@
-import H1 from "@/components/h1";
+import H1 from "../../components/h1";
 import React from "react";
 
 export default function page() {
@@ -131,6 +131,20 @@ export default function page() {
         <div className="w-30 border border-black bg-green-400">Content 3</div>
         <div className="w-30 border border-black bg-green-400">Content 3</div>
         <div className="w-30 border border-black bg-green-400">Content 3</div>
+      </div>
+
+      <H1>Other classes</H1>
+      <div className="flex">
+        <div className="flex-grow bg-green-500 p-4">Grows to fill space</div>
+        <div className="flex-none bg-red-500 p-4">Fixed size</div>
+      </div>
+      <div className="flex">
+        <div className="flex-shrink-0 bg-yellow-500 p-4">Does not shrinks</div>
+        <div className="flex-shrink-2 bg-blue-500 p-4">Shrinks when needed</div>
+      </div>
+      <div className="flex">
+        <div className="basis-1/3 bg-pink-500 p-4">Take 1/3 of space</div>
+        <div className="basis-2/3 bg-violet-500 p-4">Take 2/3 of space</div>
       </div>
     </>
   );
