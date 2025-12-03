@@ -7,6 +7,23 @@
 @theme {
   /* Custom Font */
   --font-bebas: "Bebas Neue", "sans-serif";
+
   --text-10xl: 6.75rem;
-  --color-regal-blue: #243c5a;
+
+  --color-sathish-blue: #243c5a;
+
+  --font-weight-sathish-extrablack: 1000;
+
+  --breakpoint-*: initial;
+  --breakpoint-tablet: 40rem;
+  --breakpoint-laptop: 64rem;
+  --breakpoint-desktop: 80rem;
+
+  --color-red-200: blue;
 }
+
+.my-btn {
+  @apply bg-sathish-blue font-sathish-extrablack p-3 border-2 shadow-2xl hover:outline-4 text-white;
+}
+
+@custom-variant dark (&:where(.dark-jvl, .dark-jvl *));
