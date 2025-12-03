@@ -1,4 +1,4 @@
-import Navlink from "../components/Navlink";
+import Navlink from "@/components/Navlink";
 
 export default function Home() {
   return (
